@@ -1,11 +1,12 @@
-import { Modal } from "./components/Modal";
-import { Timer } from "./components/Timer";
+// import { Modal } from "./components/Modal";
+// import { Timer } from "./components/Timer";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Modal />
+      {/* <Modal /> */}
+     
     </div>
   );
 }

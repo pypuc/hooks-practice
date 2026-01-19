@@ -1,29 +1,38 @@
-import { render } from "@testing-library/react";
-import { useRef, useState } from "react";
+// import { render } from "@testing-library/react";
+// import { useRef, useState } from "react";
 
-const Timer = () => {
-  const [timer, setTimer] = useState(0);
-  // let time = 0;
+// const Timer = () => {
+//   const [timer, setTimer] = useState(0);
+//   // let timer = 0;
+//   // let time = useRef(0)
 
-  const func = () => {
-    setTimer(timer + 1);
-  };
+//   const func = () => {
+//     setTimer((prev) => prev + 1);
+//     // time.current + 1
+//   };
 
-  const startTimer = setTimeout(func, 1000);
-  console.log(startTimer);
+//   // let startTimer = useRef(null)
 
-  const stopTimer = () => {
-    clearTimeout(startTimer);
-    setTimer(0);
-    console.log(startTimer);
-  };
+//   // startTimer.current =
 
-  return (
-    <div>
-      <p>{startTimer}</p>
-      <button onClick={stopTimer}>stop timer</button>
-    </div>
-  );
-};
+//   const startTimer = () => {
+//     setInterval(func, 1000);
+//     console.log(timer);
+//   };
 
-export default Timer;
+//   const stopTimer = () => {
+//     clearInterval();
+//     // setTimer(0)
+//   };
+
+//   return (
+//     <div>
+//       <button onClick={startTimer}>start timer</button>
+//       <p>{timer}</p>
+//       <button onClick={stopTimer}>stop timer</button>
+//     </div>
+//   );
+// };
+
+
+// export default Timer;
